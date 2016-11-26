@@ -1,0 +1,43 @@
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,input,form,a,p,textarea{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+html{
+	min-height: 100%;
+}
+body{
+	min-width: 1000px;
+	min-height: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+ol,ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+
+h5{
+	color:#fff;
+	font-size: 14px;
+}
+img{
+	border: none;
+	display: block;
+}
+.clearfloat{
+	zoom:1;
+}
+.clearfloat:after{
+	display: block;
+	clear: both;
+	content: "";
+	visibility: hidden;
+	height: 0;
+}
+
+ 
